@@ -1,0 +1,118 @@
+.component1Icon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.component1Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.bitcoin,
+.btc {
+  position: relative;
+  line-height: 130%;
+  display: inline-block;
+}
+.btc {
+  width: 32px;
+  height: 21px;
+}
+.bitcoin {
+  align-self: stretch;
+  height: 18px;
+  font-size: var(--font-size-sm);
+  color: var(--white-60);
+}
+.btcParent,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.btcParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-10xs);
+}
+.frameParent {
+  width: 84px;
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.priceChange,
+.priceValue {
+  position: relative;
+  line-height: 130%;
+  display: inline-block;
+}
+.priceValue {
+  align-self: stretch;
+  height: 26px;
+  white-space: nowrap;
+}
+.priceChange {
+  width: 47px;
+  height: 21px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-crimson);
+}
+.priceValueParent {
+  width: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.graphIcon {
+  align-self: stretch;
+  height: 42px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-xl);
+  font-family: var(--font-sk-modernist);
+}
+.div {
+  flex: 1;
+  border-radius: var(--br-base);
+  background: linear-gradient(
+    182.93deg,
+    rgba(255, 188, 17, 0.08),
+    rgba(255, 255, 255, 0.05) 75.52%
+  );
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 147px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--crypto-0);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .priceValue {
+    font-size: var(--font-size-base);
+    line-height: 21px;
+  }
+}

@@ -1,0 +1,99 @@
+.dataAccess {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+}
+.div {
+  position: absolute;
+  height: 6.5%;
+  width: 42.86%;
+  top: 0;
+  left: 57.14%;
+  line-height: 100%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 25.2px;
+}
+.dataAccessParent {
+  position: absolute;
+  height: calc(100% - 1.1px);
+  top: 1.1px;
+  bottom: 0;
+  left: 0;
+  width: 58.8px;
+}
+.chatbox2,
+.div1 {
+  position: absolute;
+}
+.div1 {
+  height: 39.89%;
+  width: 37.78%;
+  top: 0;
+  left: 66.22%;
+  line-height: 100%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 17px;
+}
+.chatbox2 {
+  margin: 0;
+  top: 10.6px;
+  left: 0;
+  width: 21.3px;
+  height: 24.5px;
+  overflow: hidden;
+}
+.div2,
+.parent {
+  position: absolute;
+  top: 0;
+}
+.parent {
+  height: 11.36%;
+  width: 23.85%;
+  right: 34.82%;
+  bottom: 88.64%;
+  left: 41.34%;
+}
+.div2 {
+  height: 67.11%;
+  width: 28.37%;
+  left: 71.63%;
+  line-height: 100%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 14.1px;
+}
+.arrowUndo1Icon {
+  top: 5.8px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.arrowUndo1Icon,
+.contact,
+.group {
+  position: absolute;
+}
+.group {
+  height: 9.64%;
+  width: 26.34%;
+  top: 0.36%;
+  right: 0;
+  bottom: 90%;
+  left: 73.66%;
+}
+.contact {
+  bottom: 2487.6px;
+  left: 967px;
+  width: 188.7px;
+  height: 309px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-inter-tight);
+}

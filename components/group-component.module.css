@@ -1,0 +1,370 @@
+.marketplaceAvailability {
+  margin: 0;
+  position: absolute;
+  top: 313px;
+  left: 267px;
+  font-size: inherit;
+  line-height: 100%;
+  font-weight: 900;
+  font-family: inherit;
+}
+.weAreTransparent,
+.weIntegrateA {
+  margin: 0;
+}
+.arb,
+.weIntegrateAContainer {
+  line-height: 140%;
+  text-align: center;
+  display: inline-block;
+}
+.weIntegrateAContainer {
+  position: absolute;
+  top: 394px;
+  left: 213px;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+  width: 821px;
+}
+.arb {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--crypto-0);
+  min-width: 40px;
+}
+.condition {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-6xs) var(--padding-lg);
+  background-color: var(--color-black);
+  position: absolute;
+  top: 34px;
+  left: 242px;
+  border-radius: var(--br-11xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.avaxWrapper:hover,
+.compositeFunction:hover,
+.condition:hover,
+.ethWrapper:hover,
+.futures:hover,
+.imageHandler:hover,
+.inputFilter:hover,
+.logger:hover,
+.scheduler:hover,
+.trigger:hover {
+  background-color: var(--color-darkslategray);
+  border: 2px solid var(--color-darkslategray);
+  box-sizing: border-box;
+}
+.ltc {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 140%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--crypto-0);
+  text-align: center;
+  display: inline-block;
+  min-width: 37px;
+}
+.inputFilter {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-6xs) var(--padding-lg);
+  background-color: var(--color-black);
+  position: absolute;
+  top: 68px;
+  left: 1109px;
+  border-radius: var(--br-11xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.solana {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 140%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--crypto-0);
+  text-align: center;
+  display: inline-block;
+  min-width: 84px;
+}
+.trigger {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-6xs) var(--padding-lg);
+  background-color: var(--color-black);
+  position: absolute;
+  top: 58px;
+  left: 110px;
+  border-radius: var(--br-11xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pepe {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 140%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--crypto-0);
+  text-align: center;
+  display: inline-block;
+  min-width: 50px;
+}
+.compositeFunction {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-6xs) var(--padding-lg);
+  background-color: var(--color-black);
+  position: absolute;
+  top: 116px;
+  left: 322px;
+  border-radius: var(--br-11xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.avax {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 140%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--crypto-0);
+  text-align: center;
+  display: inline-block;
+  min-width: 53px;
+}
+.avaxWrapper {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-6xs) var(--padding-mini) var(--padding-6xs)
+    var(--padding-xl);
+  background-color: var(--color-black);
+  position: absolute;
+  top: 140px;
+  left: 464px;
+  border-radius: var(--br-11xl);
+  box-sizing: border-box;
+  width: 92px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.xmr {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 140%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--crypto-0);
+  text-align: center;
+  display: inline-block;
+  min-width: 45px;
+}
+.futures {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-6xs) var(--padding-lg);
+  background-color: var(--color-black);
+  position: absolute;
+  top: 37px;
+  left: 859px;
+  border-radius: var(--br-11xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.matic {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 140%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--crypto-0);
+  text-align: center;
+  display: inline-block;
+  min-width: 64px;
+}
+.imageHandler {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-6xs) var(--padding-lg);
+  background-color: var(--color-black);
+  position: absolute;
+  top: 113px;
+  left: 919px;
+  border-radius: var(--br-11xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tron {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 140%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--crypto-0);
+  text-align: center;
+  display: inline-block;
+  min-width: 57px;
+}
+.scheduler {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-6xs) var(--padding-lg);
+  background-color: var(--color-black);
+  position: absolute;
+  top: 44px;
+  left: 729px;
+  border-radius: var(--br-11xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.btc {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 140%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--crypto-0);
+  text-align: center;
+  display: inline-block;
+  min-width: 41px;
+}
+.logger {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-6xs) var(--padding-lg);
+  background-color: var(--color-black);
+  position: absolute;
+  top: 51px;
+  left: 440px;
+  border-radius: var(--br-11xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.eth {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 140%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--crypto-0);
+  text-align: center;
+  display: inline-block;
+  min-width: 40px;
+}
+.conditionParent,
+.ethWrapper {
+  position: absolute;
+  overflow: hidden;
+}
+.ethWrapper {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-6xs) var(--padding-lg);
+  background-color: var(--color-black);
+  top: 133px;
+  left: 791px;
+  border-radius: var(--br-11xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.conditionParent {
+  top: 20px;
+  left: 0;
+  border-radius: var(--br-xs);
+  background: conic-gradient(
+    from 88.87deg at 50% 50%,
+    #845898 -54.38deg,
+    #000 62.77deg,
+    #c8c3ff 226.67deg,
+    #845898 305.62deg,
+    #000 422.77deg
+  );
+  width: 100%;
+  height: 236px;
+}
+.tokenGridChild {
+  position: absolute;
+  top: 0;
+  left: 548px;
+  width: 230px;
+  height: 232px;
+}
+.featuresList,
+.tokenGrid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 256px;
+}
+.featuresList {
+  top: 2585px;
+  left: 318px;
+  width: 1320px;
+  height: 438px;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--crypto-0);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .marketplaceAvailability {
+    font-size: var(--font-size-32xl);
+    line-height: 51px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .marketplaceAvailability {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+  .arb,
+  .avax,
+  .btc,
+  .eth,
+  .ltc,
+  .matic,
+  .pepe,
+  .solana,
+  .tron,
+  .xmr {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+}

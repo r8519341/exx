@@ -1,0 +1,224 @@
+.com,
+.rules {
+  margin: 0;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.com {
+  z-index: 1;
+  margin: 0 0 0-4px;
+}
+.linkColumns,
+.linkLabels {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.linkLabels {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+}
+.linkColumns {
+  height: 54px;
+  width: 262px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-lgi) 0 0;
+  box-sizing: border-box;
+}
+.com1,
+.rules1 {
+  margin: 0;
+  height: 35px;
+  width: 133px;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.comParent,
+.linkColumns1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.comParent {
+  width: 353px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.linkColumns1 {
+  width: 487px;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) 0 0;
+  box-sizing: border-box;
+}
+.com2,
+.com3 {
+  margin: 0;
+  align-self: stretch;
+  height: 35px;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.comGroup,
+.subLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comGroup {
+  align-self: stretch;
+  gap: var(--gap-10xl);
+}
+.subLinks {
+  width: 160px;
+  flex-shrink: 0;
+  padding: var(--padding-xl) var(--padding-8xl) 0 0;
+  box-sizing: border-box;
+}
+.com4 {
+  margin: 0;
+  align-self: stretch;
+  height: 35px;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.linkColumns2 {
+  width: 141px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.com5 {
+  margin: 0;
+  width: 133px;
+  height: 35px;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.linkColumns3 {
+  width: 267px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) 0 0;
+  box-sizing: border-box;
+}
+.icon,
+.support {
+  position: relative;
+}
+.support {
+  margin: 0;
+  align-self: stretch;
+  width: 118px;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs-5) 0 0;
+}
+.div,
+.footerLinks,
+.linkColumnsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.div {
+  height: 73px;
+  width: 230px;
+  border-radius: var(--br-xs);
+  border: 3px solid var(--color-gray-400);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-19xl);
+  gap: var(--gap-3xs);
+  color: var(--crypto-0);
+}
+.footerLinks,
+.linkColumnsParent {
+  max-width: 100%;
+}
+.linkColumnsParent {
+  width: 1687px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+  debug_commit: 1de1738;
+}
+.footerLinks {
+  width: 1903px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .com,
+  .com1,
+  .rules,
+  .rules1 {
+    font-size: var(--font-size-xl);
+    line-height: 28px;
+  }
+  .comParent {
+    flex-wrap: wrap;
+  }
+  .com2,
+  .com3,
+  .com4,
+  .com5,
+  .support {
+    font-size: var(--font-size-xl);
+    line-height: 28px;
+  }
+}
